@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-size: 20px;
+}
+.button-excuse {
+    background-color:black;
+    color: white;
+    border:none;
+    text-decoration: none;
+    padding:10px;
+    outline:none;
+    margin-top: 80px;
+    cursor: pointer;
+}
