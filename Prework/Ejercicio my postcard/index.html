@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Postcard</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="postcard">
+			<div class="postcard-header">
+				<h1 class="title">My Postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+					alt=""
+				/>
+			</div>
+
+			<div class="postcard-body">
+				<div class="body-left">
+					<p class="parrafo-1">Esta es mi postal usando HTML y CSS en el bootcamp 4Geeks Academy course</p>
+					<p>Espero aprender mucho y encontrar trabajo muy pronto</p>
+				</div>
+				<div class="body-right">
+					<form action="#">
+						<label for="name" class="label">Nombre</label>
+						<input id="name" class="input" type="text" />
+
+						<label for="email" class="label">Email</label>
+						<input type="email" class="input" id="Email" />
+
+						<label for="comentario" class="label">Comentario</label>
+						<textarea class="textarea" id="comentario"></textarea>
+					</form>
+				</div>
+			</div>
+
+			<div class="postcard-footer">
+				<button type="submit" class="submit">Enviar Mi Postcard</button>
+			</div>
+		</div>
+	</body>
+</html>
